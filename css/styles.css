@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Coinevoo';
+    src: url('assets/fonts/Coinevoo.woff2') format('woff2');
+    /* You can add other font formats (e.g., woff, ttf) for cross-browser compatibility if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Coinevoo', sans-serif;
+    background-color: #131519; /* Set the background color to #131519 */
+    color: #fff; /* Set text color to white for better visibility */
+}
+.get-involved-social-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.get-involved-social-element {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-involved-social-element-text {
+    margin-top: 5px;
+    font-size: 10px;
+}
