@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Coinevoo';
     src: url('assets/fonts/Coinevoo.woff2') format('woff2');
-    /* You can add other font formats (e.g., woff, ttf) for cross-browser compatibility if needed */
     font-weight: normal;
     font-style: normal;
 }
@@ -17,3 +16,166 @@ body {
     align-items: center;
     margin: 20px;
 }
+
+.get-involved-social-element {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-involved-social-element-text {
+    margin-top: 5px;
+    font-size: 8px;
+}
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    font-family: 'Coinevoo', sans-serif;
+    height: 83px;
+    width: 100%;
+    background-color: #23262C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Style the logo */
+.navbar-logo img {
+    width: 165px;
+    margin-top: 10px;
+    height: 51px;
+    cursor: pointer;
+}
+
+
+.navbar-links {
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #fff; 
+    cursor: pointer;
+}
+
+
+.icon {
+    fill: #fff; 
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.navbar-link span {
+    margin-left: 10px;
+    font-family: 'Coinevoo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Styles for the dashboard container */
+.dashboard {
+    width: 437px;
+    height: 658px;
+    border-radius: 31px;
+    border: 5px solid #65D995;
+    margin: 100px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* Styles for the balance section */
+.balance {
+    text-align: center;
+}
+
+.balance h3 {
+    font-size: 35px;
+    filter: opacity(0.5);
+}
+
+.balance-amount {
+    color: #FFF;
+    font-size: 70px;
+}
+
+/* Styles for the action buttons */
+.actions {
+    display: flex;
+    justify-self: space-between;
+    margin-bottom: 27px;
+}
+
+.action {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #65D995;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    cursor: pointer;
+    margin: 30px;
+}
+
+.action img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px; 
+    margin-bottom: 25px; 
+}
+
+.action p {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #fff; /* Change this to your desired text color */
+    margin: 0;
+}
+
+
+/* Styles for the under construction section */
+.under-construction {
+    text-align: center;
+    height: 255px; /* Set the height of the parent container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.under-construction-content {
+    width: 398px;
+    height: 155px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #B1E2C6;
+}
+
+.under-construction img {
+    width: 50px; /* Set the width for your under construction image */
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.under-construction p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333; /* Set your desired text color */
+}
+
