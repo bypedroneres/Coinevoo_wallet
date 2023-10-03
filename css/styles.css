@@ -143,8 +143,8 @@ body, ul, li {
 }
 
 .action p {
-    font-size: 14px; /* Adjust the font size as needed */
-    color: #fff; /* Change this to your desired text color */
+    font-size: 14px; 
+    color: #fff; 
     margin: 0;
 }
 
@@ -167,7 +167,7 @@ body, ul, li {
 }
 
 .under-construction img {
-    width: 50px; /* Set the width for your under construction image */
+    width: 50px; 
     height: auto;
     margin: 10px auto;
     display: block;
@@ -176,6 +176,6 @@ body, ul, li {
 .under-construction p {
     margin-top: 20px;
     font-size: 18px;
-    color: #333; /* Set your desired text color */
+    color: #333;
 }
 
