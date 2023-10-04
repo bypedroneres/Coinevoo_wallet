@@ -10,6 +10,9 @@ body {
     background-color: #131519; 
     color: #fff; 
 }
+
+/* SOCIAL ICONS */
+
 .get-involved-social-wrapper {
     display: flex;
     justify-content: center;
@@ -23,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 10px; /* Add margin to create space between elements */
+    margin: 0 10px; 
 }
 
 .get-involved-social-element-text {
@@ -31,13 +34,13 @@ body {
     font-size: 8px;
 }
 
-/* Reset some default styles */
 body, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Style the navigation bar */
+/* NAVBAR */
+
 .navbar {
     font-family: 'Coinevoo', sans-serif;
     height: 83px;
@@ -48,9 +51,12 @@ body, ul, li {
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box;
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
 }
 
-/* Style the logo */
+
 .navbar-logo img {
     width: 165px;
     margin-top: 10px;
@@ -88,7 +94,8 @@ body, ul, li {
     cursor: pointer;
 }
 
-/* Styles for the dashboard container */
+/* DASHBOARD */
+
 .dashboard {
     width: 437px;
     height: 658px;
@@ -102,7 +109,6 @@ body, ul, li {
     align-items: center; 
 }
 
-/* Styles for the balance section */
 .balance {
     text-align: center;
 }
@@ -118,7 +124,8 @@ body, ul, li {
     font-size: 70px;
 }
 
-/* Styles for the action buttons */
+/* ACTION BUTTONS */
+
 .actions {
     display: flex;
     justify-self: space-between;
@@ -151,11 +158,11 @@ body, ul, li {
     margin: 0;
 }
 
+/* UNDER CONSTRUCTION */
 
-/* Styles for the under construction section */
 .under-construction {
     text-align: center;
-    height: 255px; /* Set the height of the parent container */
+    height: 255px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
