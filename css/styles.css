@@ -12,7 +12,7 @@ body {
 }
 .get-involved-social-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 20px;
 }
@@ -23,12 +23,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10px; /* Add margin to create space between elements */
 }
 
 .get-involved-social-element-text {
     margin-top: 5px;
     font-size: 8px;
 }
+
 /* Reset some default styles */
 body, ul, li {
     margin: 0;
