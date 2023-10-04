@@ -101,7 +101,7 @@ body, ul, li {
     height: 658px;
     border-radius: 31px;
     border: 5px solid #65D995;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 20px;
     box-sizing: border-box;
     display: flex; 
@@ -189,3 +189,30 @@ body, ul, li {
     color: #333;
 }
 
+
+/* APP BAR */
+.app-bar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    background-color: #23262C;
+    border-radius: 20px;
+    backdrop-filter: blur(100px); 
+    margin-bottom: 50px;
+}
+
+.app-bar-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+
+.app-bar-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #65D995;
+}
